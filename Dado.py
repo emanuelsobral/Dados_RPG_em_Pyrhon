@@ -16,7 +16,7 @@ corpo = ['Braço esquerdo','Braço direito','Torso','Perna esquerda','Perna dire
 corpo_select = (choice(corpo))
 dado = ''
 
-#Exit Choice
+#Loop
 while dado !=  '9' :
 
 #main program=

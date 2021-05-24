@@ -16,10 +16,10 @@ corpo = ['Braço esquerdo','Braço direito','Torso','Perna esquerda','Perna dire
 corpo_select = (choice(corpo))
 dado = ''
 
-#Loop
+#Main program
 while dado !=  '9' :
 
-#main program=
+
     print( '''
 [ 1 ] D4
 [ 2 ] D6

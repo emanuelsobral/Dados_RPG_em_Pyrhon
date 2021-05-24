@@ -1,8 +1,10 @@
+#Imports
 import random
 from random import randint
 from random import choice
 import os
 
+#Choices
 d4 = random.randint(0,4)
 d6 = random.randint(0,6)
 d8 = random.randint(0,8)
@@ -14,9 +16,10 @@ corpo = ['Braço esquerdo','Braço direito','Torso','Perna esquerda','Perna dire
 corpo_select = (choice(corpo))
 dado = ''
 
-
+#Exit Choice
 while dado !=  '9' :
 
+#main program=
     print( '''
 [ 1 ] D4
 [ 2 ] D6
@@ -30,12 +33,14 @@ while dado !=  '9' :
 
     ''')
 
+#Select Choices
     dado = input('Escolha uma opção: ')
     if os.name == 'nt':
         os.system('cls')
     else:
         os.system('clear')
     
+#Result
     if dado == '1':
         print(f'D4 = {d4}')
         d4 = random.randint(1,4)

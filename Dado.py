@@ -5,13 +5,13 @@ from random import choice
 import os
 
 #Choices
-d4 = random.randint(0,4)
-d6 = random.randint(0,6)
-d8 = random.randint(0,8)
-d10 = random.randint(0,10)
-d12 = random.randint(0,12)
-d20 = random.randint(0,20)
-d100 = random.randint(0,100)
+d4 = random.randint(1,4)
+d6 = random.randint(1,6)
+d8 = random.randint(1,8)
+d10 = random.randint(1,10)
+d12 = random.randint(1,12)
+d20 = random.randint(1,20)
+d100 = random.randint(1,100)
 corpo = ['Braço esquerdo','Braço direito','Torso','Perna esquerda','Perna direita','Cabeça']
 corpo_select = (choice(corpo))
 dado = ''

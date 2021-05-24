@@ -21,6 +21,8 @@ while dado !=  '9' :
 
 
     print( '''
+Escolha uma opção
+    
 [ 1 ] D4
 [ 2 ] D6
 [ 3 ] D8
